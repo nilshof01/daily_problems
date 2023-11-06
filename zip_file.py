@@ -15,7 +15,7 @@ def zip_file(input_file_path):
 
 if __name__ == '__main__':
     while True:
-        user = input("Press 1 if you want to unzip only one file in a directory, press 2 if you want to unzip multiple files")
+        user = input("Press 1 if you want to zip only one file in a directory, press 2 if you want to zip multiple files")
         if user in ["1", "2"]:
             break
         else:
